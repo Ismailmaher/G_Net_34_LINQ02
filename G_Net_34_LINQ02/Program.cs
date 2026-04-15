@@ -39,17 +39,25 @@ namespace G_Net_34_LINQ02
             //}
             #endregion
             #region Question 3
-//            Take products from the list as long as Their UnitPrice is less than
-//$25(list is ordered by price).
-           // var result = ProductList
-           //.OrderBy(p => p.UnitPrice)
-           //.TakeWhile(p => p.UnitPrice < 25.00m)
-           //.ToList();
+            //            Take products from the list as long as Their UnitPrice is less than
+            //$25(list is ordered by price).
+            // var result = ProductList
+            //.OrderBy(p => p.UnitPrice)
+            //.TakeWhile(p => p.UnitPrice < 25.00m)
+            //.ToList();
             //var result = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25.00m).ToList();
             //foreach (var item in result)
             //{
             //    Console.WriteLine($"Price: {item.UnitPrice:C} | Product: {item.ProductName}");
             //}
+            #endregion
+            #region Question 4
+            // Check if ALL products in the "Seafood" category are in stock
+            //var result = ProductList.ToLookup(p => p.Category);
+            //bool allInStock = result["Seafood"]
+            //    .All(p => p.UnitsInStock > 0);
+            //Console.WriteLine(allInStock);   
+        
             #endregion
         }
     }
