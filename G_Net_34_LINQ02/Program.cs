@@ -115,6 +115,10 @@ namespace G_Net_34_LINQ02
             #region Question 10
             //int totalUnits = ProductList.Sum(p => p.UnitsInStock);
             #endregion
+            #region Question 11
+            var minPrice = ProductList.Min(p => p.UnitPrice);
+            var maxPrice = ProductList.Max(p => p.UnitPrice);
+            #endregion
 
         }
     }
