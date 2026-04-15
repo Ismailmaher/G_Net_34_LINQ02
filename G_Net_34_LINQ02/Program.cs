@@ -91,6 +91,12 @@ namespace G_Net_34_LINQ02
             //        Console.WriteLine(name);
             //}
             #endregion
+            #region Question 8
+            //var result = ProductList
+            //.GroupBy(p => p.Category)
+            //.Where(g => g.Count() > 3)
+            //.Select(g => g.Key);
+            #endregion
         }
     }
 }
