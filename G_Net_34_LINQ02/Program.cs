@@ -141,6 +141,14 @@ namespace G_Net_34_LINQ02
             //var product = ProductList.First(p => p.UnitPrice > 50);
             #endregion
 
+            #region Question 17
+            //var product = ProductList.FirstOrDefault(p => p.UnitPrice > 500);
+
+            //if (product != null)
+            //    Console.WriteLine(product.ProductName);
+            #endregion
+
+
 
         }
     }
