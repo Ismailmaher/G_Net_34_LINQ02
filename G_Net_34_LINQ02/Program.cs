@@ -73,6 +73,22 @@ namespace G_Net_34_LINQ02
             //{
             //    Console.WriteLine($"Category: {result.Key}, Count: {result.Count()}");
             //}
+            #region Question 7
+            //Group products by Category and project only product names per group
+            //var result = ProductList
+            //.GroupBy(p => p.Category)
+            //.Select(g => new
+            //{
+            // Category = g.Key,
+            // Products = g.Select(p => p.ProductName)
+            //});
+            //foreach (var g in result)
+            //{
+            //    Console.WriteLine(g.Category);
+            //    foreach (var name in g.Products)
+            //        Console.WriteLine(name);
+            //}
+            #endregion
             #endregion
         }
     }
