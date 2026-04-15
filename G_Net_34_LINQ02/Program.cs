@@ -112,6 +112,7 @@ namespace G_Net_34_LINQ02
             //    Console.WriteLine($"Country: {item.Country,-10} | Customers: {item.Count} | Total Sales: {item.TotalOrderValue:C}");
             //}
             #endregion
+
         }
     }
 }
