@@ -149,13 +149,24 @@ namespace G_Net_34_LINQ02
             #endregion
 
             #region Question 18
-           // var table = Enumerable.Range(1, 10)
-           //.Select(x => 7 * x);
+            // var table = Enumerable.Range(1, 10)
+            //.Select(x => 7 * x);
 
-           // foreach (var i in table)
-           //     Console.WriteLine(i);
+            // foreach (var i in table)
+            //     Console.WriteLine(i);
             #endregion
 
+            #region Question 19
+            //        var evens = Enumerable.Range(1, 30)
+            //.Where(x => x % 2 == 0);
+            #endregion
+
+            #region Question 20
+    //        var result = ProductList.Take(3)
+    //.Select(p => p.ProductName)
+    //.Concat(CustomerList.Take(3)
+    //.Select(c => c.CompanyName));
+            #endregion
 
 
         }
