@@ -148,6 +148,14 @@ namespace G_Net_34_LINQ02
             //    Console.WriteLine(product.ProductName);
             #endregion
 
+            #region Question 18
+           // var table = Enumerable.Range(1, 10)
+           //.Select(x => 7 * x);
+
+           // foreach (var i in table)
+           //     Console.WriteLine(i);
+            #endregion
+
 
 
         }
