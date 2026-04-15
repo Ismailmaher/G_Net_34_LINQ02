@@ -59,12 +59,21 @@ namespace G_Net_34_LINQ02
             //Console.WriteLine(allInStock);   
             #endregion
             #region Question 5
-           // int[] ids = { 3, 9, 13, 18 };
-           //// bool exists = ids.Contains(9);
-           // bool exists = ids.Any(x => x == 9);
-           // Console.WriteLine(exists);
+            // int[] ids = { 3, 9, 13, 18 };
+            //// bool exists = ids.Contains(9);
+            // bool exists = ids.Any(x => x == 9);
+            // Console.WriteLine(exists);
             #endregion
 
+            #region Question 6
+            //Group all products by Category and print each group with its product count.
+            //var groups = ProductList.GroupBy(p => p.Category);
+
+            //foreach (var result in groups)
+            //{
+            //    Console.WriteLine($"Category: {result.Key}, Count: {result.Count()}");
+            //}
+            #endregion
         }
     }
 }
