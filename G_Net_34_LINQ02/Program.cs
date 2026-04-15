@@ -38,6 +38,19 @@ namespace G_Net_34_LINQ02
             //    Console.WriteLine($"ID: {item.ProductID} | Product: {item.ProductName} | Price: {item.UnitPrice:C}");
             //}
             #endregion
+            #region Question 3
+//            Take products from the list as long as Their UnitPrice is less than
+//$25(list is ordered by price).
+           // var result = ProductList
+           //.OrderBy(p => p.UnitPrice)
+           //.TakeWhile(p => p.UnitPrice < 25.00m)
+           //.ToList();
+            //var result = ProductList.OrderBy(p => p.UnitPrice).TakeWhile(p => p.UnitPrice < 25.00m).ToList();
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Price: {item.UnitPrice:C} | Product: {item.ProductName}");
+            //}
+            #endregion
         }
     }
 }
