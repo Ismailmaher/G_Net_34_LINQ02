@@ -127,6 +127,13 @@ namespace G_Net_34_LINQ02
             #region Question 13
             //var result = setA.Except(setB);
             #endregion
+            #region Question 14
+            //var result = list1
+            //.Except(list2, StringComparer.OrdinalIgnoreCase);
+            #endregion
+            #region Question 15
+
+            #endregion
 
 
         }
