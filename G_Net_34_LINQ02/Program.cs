@@ -97,6 +97,21 @@ namespace G_Net_34_LINQ02
             //.Where(g => g.Count() > 3)
             //.Select(g => g.Key);
             #endregion
+
+            #region Question 9
+            //var result = from c in Source.CustomerList
+            //             group c by c.Country into countryGroup
+            //             select new
+            //             {
+            //                 Country = countryGroup.Key,
+            //                 Count = countryGroup.Count(),
+            //                 TotalOrderValue = countryGroup.Sum(cust => cust.Orders.Sum(o => o.Total))
+            //             };
+            //foreach (var item in result)
+            //{
+            //    Console.WriteLine($"Country: {item.Country,-10} | Customers: {item.Count} | Total Sales: {item.TotalOrderValue:C}");
+            //}
+            #endregion
         }
     }
 }
