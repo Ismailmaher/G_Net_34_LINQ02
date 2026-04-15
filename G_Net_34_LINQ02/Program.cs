@@ -137,6 +137,10 @@ namespace G_Net_34_LINQ02
             //Console.WriteLine(product.ProductName);
             #endregion
 
+            #region Question 16
+            //var product = ProductList.First(p => p.UnitPrice > 50);
+            #endregion
+
 
         }
     }
