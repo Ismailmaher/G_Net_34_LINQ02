@@ -132,7 +132,9 @@ namespace G_Net_34_LINQ02
             //.Except(list2, StringComparer.OrdinalIgnoreCase);
             #endregion
             #region Question 15
-
+            //var dict = ProductList.ToDictionary(p => p.ProductID);
+            //var product = dict[18];
+            //Console.WriteLine(product.ProductName);
             #endregion
 
 
