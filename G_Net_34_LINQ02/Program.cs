@@ -124,6 +124,9 @@ namespace G_Net_34_LINQ02
             //.Select(p => p.Category)
             //.Distinct();
             #endregion
+            #region Question 13
+            //var result = setA.Except(setB);
+            #endregion
 
 
         }
