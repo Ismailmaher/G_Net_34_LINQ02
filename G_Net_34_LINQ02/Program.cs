@@ -73,6 +73,8 @@ namespace G_Net_34_LINQ02
             //{
             //    Console.WriteLine($"Category: {result.Key}, Count: {result.Count()}");
             //}
+
+            #endregion
             #region Question 7
             //Group products by Category and project only product names per group
             //var result = ProductList
@@ -88,7 +90,6 @@ namespace G_Net_34_LINQ02
             //    foreach (var name in g.Products)
             //        Console.WriteLine(name);
             //}
-            #endregion
             #endregion
         }
     }
