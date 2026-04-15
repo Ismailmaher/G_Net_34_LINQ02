@@ -119,6 +119,12 @@ namespace G_Net_34_LINQ02
             var minPrice = ProductList.Min(p => p.UnitPrice);
             var maxPrice = ProductList.Max(p => p.UnitPrice);
             #endregion
+            #region Question 12
+            //var categories = ProductList
+            //.Select(p => p.Category)
+            //.Distinct();
+            #endregion
+
 
         }
     }
