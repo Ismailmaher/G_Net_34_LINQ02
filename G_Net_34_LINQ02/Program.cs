@@ -112,6 +112,9 @@ namespace G_Net_34_LINQ02
             //    Console.WriteLine($"Country: {item.Country,-10} | Customers: {item.Count} | Total Sales: {item.TotalOrderValue:C}");
             //}
             #endregion
+            #region Question 10
+            //int totalUnits = ProductList.Sum(p => p.UnitsInStock);
+            #endregion
 
         }
     }
